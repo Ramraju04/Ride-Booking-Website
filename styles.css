@@ -1,0 +1,294 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8fafc;
+  color: #252525;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.logo, .footer-logo {
+  height: 52px;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background: linear-gradient(90deg, #ebf3fa 70%, #fff 100%);
+  padding: 48px 6vw 16px 6vw;
+}
+.hero-content {
+  max-width: 480px;
+  padding: 24px;
+}
+.hero h1 {
+  font-size: 2.8rem;
+  color: #2a60b1;
+  margin-bottom: 0.4em;
+}
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 1.4em;
+}
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.booking-form select, .booking-form input {
+  padding: 11px;
+  border: 1px solid #a7c3e5;
+  border-radius: 7px;
+  font-size: 1rem;
+}
+.booking-form button {
+  background: #2867c7;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 13px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 8px;
+  transition: 0.19s;
+}
+.booking-form button:hover {
+  background: #163d68;
+}
+.app-buttons img {
+  height: 38px;
+  margin-right: 14px;
+  margin-top: 10px;
+}
+.hero-image img {
+  max-width: 390px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+/* Steps/How it Works */
+.steps {
+  background: #e5f1ff;
+  padding: 40px 0;
+}
+.steps h2 {
+  text-align: center;
+  color: #08356a;
+}
+.steps-row {
+  display: flex;
+  justify-content: center;
+  gap: 62px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.step {
+  background: #fff;
+  border-radius: 13px;
+  box-shadow: 0 2px 16px rgba(70,120,160,0.08);
+  padding: 24px 32px;
+  text-align: center;
+  width: 235px;
+}
+.step img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+/* Services */
+.services {
+  padding: 48px 0;
+}
+.services h2 {
+  text-align: center;
+  color: #08356a;
+}
+.services-row {
+  display: flex;
+  justify-content: center;
+  gap: 42px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+.service-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 20px rgba(150,175,210,0.10);
+  text-align: center;
+  padding: 32px 30px;
+  width: 210px;
+}
+.service-card img {
+  width: 62px;
+  margin-bottom: 13px;
+}
+.service-card h3 {
+  color: #2a60b1;
+  font-size: 1.18rem;
+}
+
+/* Become a Captain */
+.captain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fdf6e3;
+  padding: 45px 8vw;
+  margin: 48px 0;
+  flex-wrap: wrap;
+}
+.captain-content {
+  max-width: 480px;
+}
+.captain-content h2 {
+  color: #b18200;
+  font-size: 2rem;
+}
+.captain-content p {
+  font-size: 1.09rem;
+  margin-bottom: 20px;
+}
+.captain .cta-button {
+  background: #fdbe00;
+  padding: 13px 28px;
+  border-radius: 22px;
+  color: #7a5200;
+  font-weight: bold;
+  box-shadow: 0 2px 12px rgba(240,195,60,0.13);
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 0.15s;
+}
+.captain .cta-button:hover {
+  background: #ffe071;
+  color: #b18200;
+}
+.captain-image img {
+  width: 245px;
+  border-radius: 14px;
+}
+
+/* Testimonials */
+.testimonials {
+  background: #e5f4ed;
+  padding: 50px 0;
+}
+.testimonials h2 {
+  text-align: center;
+  color: #04765a;
+}
+.testimonials-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+.testimonial-card {
+  background: #ffffff;
+  box-shadow: 0 1px 18px rgba(60,130,105,0.12);
+  border-radius: 13px;
+  padding: 25px 28px;
+  max-width: 260px;
+  min-width: 230px;
+}
+.testimonial-card .author {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #197954;
+}
+
+/* FAQ */
+.faq {
+  max-width: 720px;
+  margin: 42px auto;
+  background: #eef0fa;
+  border-radius: 15px;
+  padding: 36px 22px;
+}
+.faq h2 {
+  color: #4247a7;
+  text-align: center;
+  margin-bottom: 28px;
+}
+.faq details {
+  margin-bottom: 14px;
+}
+.faq summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.05rem;
+  background: #d9dee7;
+  border-radius: 7px;
+  padding: 10px;
+}
+.faq p {
+  margin: 8px 0 8px 18px;
+}
+
+/* Footer */
+footer {
+  background: #243254;
+  color: #fff;
+  padding: 45px 7vw 20px 7vw;
+  margin-top: 30px;
+}
+.footer-row {
+  display: flex;
+  gap: 68px;
+  flex-wrap: wrap;
+}
+.footer-row > div {
+  margin-bottom: 18px;
+}
+.footer-logo {
+  height: 38px;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+footer li {
+  margin-bottom: 9px;
+}
+footer h4 {
+  margin-bottom: 12px;
+}
+.social img {
+  height: 33px;
+  margin-right: 11px;
+  background: #fff;
+  border-radius: 20%;
+  padding: 2px;
+}
+.footer-copy {
+  text-align: center;
+  border-top: 1px solid #3e4d72;
+  margin-top: 33px;
+  padding-top: 12px;
+  color: #aac7ee;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .hero-image {
+    align-self: center;
+    margin-top: 18px;
+  }
+  .steps-row, .services-row, .testimonials-row, .footer-row, .captain {
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+  }
+  .captain {
+    padding: 30px 4vw;
+  }
+}
